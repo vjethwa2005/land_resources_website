@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+        }
+        ul{
+        list-style:none;
+        margin:0px;
+        padding:0;
+        overflow:hidden;
+        background-color:rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        
+        }
+            
+        li{
+        float:left;
+        }
+
+        li a{
+        display:block;
+        color:white;
+        text-align:center;
+        padding:14px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover{background-color:#807979c5;
+        transition:1ms;}
+
+
+        body{
+            background-image: url(./flower_bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        .content-page{
+            width: 100%;
+            height:600px;
+            display: flex;
+            /* flex-direction: row; */
+            justify-content: space-around;
+        }
+        .content-page .card1,.card2{
+            position: relative;
+            background-color:linear-gradient(rgba(255, 255, 255, 0.1),rgba(0, 0, 0, 0.2),rgba(255, 255, 255, 0.1));
+            backdrop-filter: blur(10px);
+            color:white;
+            height:200px;
+            width:25%;
+            padding:15px;
+            margin:10px;
+            font-size: xx-large;
+            border-radius: 10px;
+            float:left;
+            top:175px;
+            text-align:center;
+            border:2px solid white;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            transition: box-shadow 1s;
+        }
+
+        .content-page .card1:hover, .card2:hover{
+            box-shadow:5px 15px 30px 10px rgb(0, 0, 0);
+        }
+
+
+        img{
+            margin-top:10px;
+            /* margin-bottom: 10px; */
+            visibility: visible;
+        }
+        
+        
+
+        iframe{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p{
+            position: relative;
+            top:80px;
+        }
+        
+        .footer{
+            position: relative;
+            width:100%;
+            height:200px;
+            background-color: rgba(0, 0, 0, 0.2);
+            backdrop-filter:blur(10px);
+        }
+
+        .footer_text{
+            color:white;
+            position: relative;
+            top:100px;
+            text-align: center;
+        }
+
+        </style>
+        <ul>
+            <li><a  href="#homepage">HOME</a></li>
+            <li><a href="https://www.india.gov.in/official-website-ministry-environment-and-forests-0">ENVIRONMENTAL MINISTRIES</a></li>
+            <li><a href="https://www.tncindia.in/about-us/who-we-are/">WHO ARE WE NGO</a></li>
+            <li style="float:right; background-color: rgb(73, 100, 64);"><a href="./about.html">ABOUT</a></li>
+        </ul>
+
+        <div class="content-page">
+            <div class="card1">
+
+                <a class="land_r" style="text-decoration: none; color:white; cursor: pointer;" href="./land_resources.html"><p>LAND RESOURCES</p></a>
+                <!-- <iframe width="100%" height="90%" src="https://www.youtube.com/embed/h6JVx2a8QaM?si=E2qvcKsT9Qr-a3Wi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                
+            </div>
+
+            <div class="card2">
+                <a class="land_r" style="text-decoration: none; color:white; cursor: pointer;" href="./land_use_change.html"><p>LAND USE CHANGE</p></a>
+            </div>
+            
+        </div>
+
+        <div class="footer">
+            <p class="footer_text">Degined by Varsha Jethwa. All rights reserved.</p><br>
+            <p class="footer_text">contact us at:@gmail.com</p>
+        </div>
+
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+        }
+        ul{
+        list-style:none;
+        margin:0px;
+        padding:0;
+        overflow:hidden;
+        background-color:rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        
+        }
+            
+        li{
+        float:left;
+        }
+
+        li a{
+        display:block;
+        color:white;
+        text-align:center;
+        padding:14px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover{background-color:#807979c5;
+        transition:1ms;}
+
+
+        .active{background-color: rgb(97, 126, 97);}
+
+        body{
+            background-image: url(./flower_bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .block1{
+            position:relative;
+            top:100px;
+            left:200px;
+            height:450px;
+            width:75%;
+            background-color: rgba(225,225,225,0.2);
+            backdrop-filter:blur(10px);
+            border-radius:15px;
+            border:2px solid white;
+            margin:10px;
+            transition: box-shadow 1s;
+            padding:10px;
+            overflow: hidden;
+
+        }
+
+        img{
+            position:relative;
+            height:400px;
+            width:600px;
+            top:-5px;
+            left:35px;
+            border-radius: 15px;
+        }
+
+        p{
+            position: relative;
+            width:650px;
+            left:650px;
+            top:-200px;
+            color:#ffffff;
+            font-size: 23px;
+        }
+
+        h1{
+            position: relative;
+            color:white;
+            top:100px;
+            left:800px;
+        }
+    </style>
+
+    <ul>
+        <li><a href=#home>HOME</a></li>
+        <li><a  href="./es.html">ALL ABOUT LAND</a></li>
+        <li><a href="https://www.india.gov.in/official-website-ministry-environment-and-forests-0">ENVIRONMENTAL MINISTRIES</a></li>
+        <li><a href="https://www.tncindia.in/about-us/who-we-are/">WHO ARE WE NGO</a></li>
+        <li class="active" style="float:right"><a href="#about">ABOUT</a></li>
+    </ul>
+
+    <div class="container">
+        <div class="block1">
+            <h1>ABOUT US</h1>
+            <img src="./about_img.jpeg" >
+            <p>
+                VARSHA JETHWA - DESIGNER <br>
+                PAURAVI VISHWAKARMA - CONTENT WRITER <br>
+                YESHA YADAV -  CONTENT WRITER <br>
+            </p>
+        </div>
+    </div>
+
+    </body>
+</html>
