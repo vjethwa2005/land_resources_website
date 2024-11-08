@@ -1,1 +1,1 @@
-# land_resources_website
+A Website for Environmental Studies subject on topic Land Resources.
